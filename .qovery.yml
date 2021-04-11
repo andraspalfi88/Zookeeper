@@ -1,0 +1,11 @@
+---
+application:
+  name: "zookeeper"
+  project: "Tictactoe"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-zookeeper"
+  routes:
+  - application_name: "zookeeper"
+    paths:
+    - "/*"
